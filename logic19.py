@@ -8,4 +8,17 @@ def main(x):
     Returns:
         bool: answer
     """
-    return
+    x > 9 and x < 1000
+    x1= x%10
+    x //= 10
+
+    x2 = x%10
+    x//=10
+
+    x3 = x%10
+    x //= 10
+   
+     
+    print ( x1 == x2 or x1 == x3 )
+
+main(11)
